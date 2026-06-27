@@ -1,0 +1,17 @@
+# Dataset
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Environment
+.env
