@@ -1,5 +1,4 @@
-```
-DATA DICTIONARY
+# DATA DICTIONARY
 
 | Variable          | Type     | Description                    | Business Meaning          | Use |
 | -----------       | -------- | ----------------------         | ------------------        | --- |
@@ -10,4 +9,3 @@ DATA DICTIONARY
 | loan_status       | Category | Final status                   | Target source             | No  |
 
 
-```
