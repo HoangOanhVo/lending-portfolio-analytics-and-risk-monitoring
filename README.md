@@ -37,29 +37,25 @@ This project aims to answer the following questions:
 The analysis is performed on historical consumer loan records and is intended for educational and portfolio purposes only. The project does not aim to build a production lending decision engine.
 
 * Expected outputs:
-
-1. Clean analytical dataset
-2. SQL portfolio monitoring queries
-3. Credit risk model
-4. Interactive dashboard
-5. Business insights and recommendations
+    1. Clean analytical dataset
+    2. SQL portfolio monitoring queries
+    3. Credit risk model
+    4. Interactive dashboard
+    5. Business insights and recommendations
 
 * Success criteria
-
-1. Portfolio analytics: Generate monitoring KPIs
-
-2. Risk model:
- - Outperform random baseline.
- - Model evaluation
-    + Primary:
-        - ROC-AUC
-        - KS
-    + Secondary:
-        - Recall
-        - PR-AUC
- - Maintain stable model performance across validation periods.
-
-3. Business: Produce actionable underwriting insights
+    1. Portfolio analytics: Generate monitoring KPIs
+    2. Risk model:
+        - Outperform random baseline.
+        - Model evaluation
+            + Primary:
+                - ROC-AUC
+                - KS
+            + Secondary:
+                - Recall
+                - PR-AUC
+        - Maintain stable model performance across validation periods.
+    3. Business: Produce actionable underwriting insights
 
 ---
 
