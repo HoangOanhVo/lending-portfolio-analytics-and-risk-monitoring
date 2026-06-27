@@ -7,9 +7,9 @@ This project analyzes the performance and credit risk of a consumer lending port
 The objective is to simulate an end-to-end credit risk analytics workflow similar to those used in digital lending, banking, and fintech environments. The project combines SQL-based portfolio analysis, exploratory data analysis, predictive modeling, and dashboard reporting to transform raw lending data into actionable business insights.
 
 * Project assumption:
- Role: Credit Risk Analyst
- Time: End of 2019
- Data available: Lending Club Accepted Loans 2007–2018
+ - Role: Credit Risk Analyst
+ - Time: End of 2019
+ - Data available: Lending Club Accepted Loans 2007–2018
 
 ---
 
@@ -52,11 +52,11 @@ The analysis is performed on historical consumer loan records and is intended fo
  - Outperform random baseline.
  - Model evaluation
     + Primary:
-        ROC-AUC
-        KS
+        - ROC-AUC
+        - KS
     + Secondary:
-        Recall
-        PR-AUC
+        - Recall
+        - PR-AUC
  - Maintain stable model performance across validation periods.
 
 3. Business: Produce actionable underwriting insights
@@ -66,8 +66,8 @@ The analysis is performed on historical consumer loan records and is intended fo
 ## Dataset
 
 * Dataset:
-Lending Club Accepted Loans Dataset (2007–2018)
-Description: 
+- Lending Club Accepted Loans Dataset (2007–2018)
+- Description: 
 Historical consumer lending records including borrower characteristics, loan attributes, repayment outcomes, and portfolio performance information.
 
 * Data Source:
@@ -87,13 +87,13 @@ Historical consumer lending records including borrower characteristics, loan att
 
 ## Target Definition
 
-Objective:
+* Objective:
 Predict whether a loan defaults within an observed performance period using information available at or before loan origination.
 
-Performance period:
+* Performance period:
 Observed until portfolio observation date (December 2019).
 
-Target variable: 
+* Target variable: 
 target
 
 | loan_status        | target |
