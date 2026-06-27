@@ -7,9 +7,9 @@ This project analyzes the performance and credit risk of a consumer lending port
 The objective is to simulate an end-to-end credit risk analytics workflow similar to those used in digital lending, banking, and fintech environments. The project combines SQL-based portfolio analysis, exploratory data analysis, predictive modeling, and dashboard reporting to transform raw lending data into actionable business insights.
 
 * Project assumption:
-Role: Credit Risk Analyst
-Time: End of 2019
-Data available: Lending Club Accepted Loans 2007–2018
+ Role: Credit Risk Analyst
+ Time: End of 2019
+ Data available: Lending Club Accepted Loans 2007–2018
 
 ---
 
