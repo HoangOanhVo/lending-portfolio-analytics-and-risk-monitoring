@@ -62,22 +62,22 @@ The analysis is performed on historical consumer loan records and is intended fo
 ## Dataset
 
 * Dataset:
- - Lending Club Accepted Loans Dataset (2007–2018)
- - Description: 
- Historical consumer lending records including borrower characteristics, loan attributes, repayment outcomes, and portfolio performance information.
+    - Lending Club Accepted Loans Dataset (2007–2018)
+    - Description:
+    Historical consumer lending records including borrower characteristics, loan attributes, repayment outcomes, and portfolio performance information.
 
 * Data Source:
- - Kaggle: Lending Club Loan Data https://www.kaggle.com/datasets/wordsforthewise/lending-club
- - Original source: Lending Club public loan dataset
- - Current imported dataset:
-    + Rows: 2,260,701
-    + Columns: Selected analytical variables
-    + Database: SQL Server (LendingRisk)
+    - Kaggle: Lending Club Loan Data https://www.kaggle.com/datasets/wordsforthewise/lending-club
+    - Original source: Lending Club public loan dataset
+    - Current imported dataset:
+        + Rows: 2,260,701
+        + Columns: Selected analytical variables
+        + Database: SQL Server (LendingRisk)
 
 * Observation Date:
- - Portfolio observation date: December 2019
- - Historical data available: 2007–2018
- - Purpose: Use historical portfolio performance to generate insights and support future underwriting decisions.
+    - Portfolio observation date: December 2019
+    - Historical data available: 2007–2018
+    - Purpose: Use historical portfolio performance to generate insights and support future underwriting decisions.
 
 ---
 
