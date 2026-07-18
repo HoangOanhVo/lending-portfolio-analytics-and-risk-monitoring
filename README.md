@@ -67,7 +67,8 @@ The analysis is performed on historical consumer loan records and is intended fo
     Historical consumer lending records including borrower characteristics, loan attributes, repayment outcomes, and portfolio performance information.
 
 * Data Source:
-    - Kaggle: Lending Club Loan Data https://www.kaggle.com/datasets/wordsforthewise/lending-club
+    - Kaggle: Lending Club Loan Data https://www.kaggle.com/datasets/wordsforthewise/lending-club 
+    - Details of the dataset: https://www.rdocumentation.org/packages/creditmodel/versions/1.3.1/topics/lendingclub
     - Original source: Lending Club public loan dataset
     - Current imported dataset:
         + Rows: 2,260,701
@@ -119,29 +120,47 @@ target
 
 ## Project Workflow
 
-1. Data understanding
+1. Business understanding
+=> Review business context, business questions and set the project's objectives
+
+2. Raw data review
 => Review dataset structure and define business meaning.
 
-2. Data preparation
-=> Clean raw data and prepare analytical tables.
+3. Data profiling
+=> Create data profile table
 
-3. Exploratory data analysis
-=> Understand portfolio composition and risk patterns.
+4. Data cleaning
+=> Cleaning the raw data
 
-4. Portfolio analytics
-=> Calculate portfolio KPIs using SQL.
+5. Data dictionary
+=> Create data dictionary
 
-5. Feature engineering
-=> Create model-ready variables.
+6. Target definition
+=>  Define the target varriable
 
-6. Credit risk modeling
-=> Build baseline default prediction model.
+7. Population selection
+=> Define the data selection
 
-7. Insight generation
-=> Translate findings into business recommendations.
+8. EDA
+=> Understand portfolio composition and risk patterns
 
-8. Dashboard development
-=> Build monitoring dashboard for business users.
+9. Portfolio mornitoring
+=> Calculate portfolio KPIs using SQL
+
+10. Feature Engineering
+=> Create model-ready variables
+
+11. Model Development
+=> Build baseline default prediction model
+
+12. Model Evaluation
+=> Evaluate the performance of the model
+
+13. Business Interpretation
+=> Translate findings into business recommendations
+
+14. Dashboard development
+=> Build monitoring dashboard for business users
 
 ---
 
