@@ -121,40 +121,40 @@ target
 ## Project Workflow
 
 1. Business understanding
-=> Review business context, business questions and set the project's objectives
+=> Review the business context, define business objectives, and identify key business questions
 
 2. Raw data review
-=> Review dataset structure and define business meaning.
+=> Review the dataset structure, available variables, and their business context
 
 3. Data profiling
-=> Create data profile table
+=> Assess data quality by summarizing data types, missing values, unique values, and distributions
 
 4. Data cleaning
-=> Cleaning the raw data
+=> Clean and standardize the raw dataset for analysis
 
 5. Data dictionary
-=> Create data dictionary
+=> Document business definitions and analytical usage of variables
 
 6. Target definition
 =>  Define the target varriable
 
 7. Population selection
-=> Define the data selection
+=> Select the modeling population based on business rules and target availability
 
 8. EDA
 => Understand portfolio composition and risk patterns
 
 9. Portfolio mornitoring
-=> Calculate portfolio KPIs using SQL
+=> Generate portfolio monitoring KPIs using SQL
 
 10. Feature Engineering
 => Create model-ready variables
 
 11. Model Development
-=> Build baseline default prediction model
+=> Develop baseline credit risk prediction models
 
 12. Model Evaluation
-=> Evaluate the performance of the model
+=> Evaluate model discrimination, stability, and business performance
 
 13. Business Interpretation
 => Translate findings into business recommendations
@@ -201,32 +201,35 @@ lending-portfolio-analytics-and-risk-monitoring\
 │   
 ├───dashboard
 ├───data
-│   │   archive.zip
-│   │   
 │   ├───processed
+│   │       column_names.csv
 │   │       loan_clean.csv
 │   │       
 │   └───raw
 │           accepted_2007_to_2018Q4.csv
-│           rejected_2007_to_2018Q4.csv
 │           
 ├───notebooks
-│       01_data_cleaning.ipynb
-│       02_eda.ipynb
-│       03_feature_engineering.ipynb
-│       04_modeling.ipynb
+│       01_data_profiling.ipynb
+│       02_data_cleaning.ipynb
+│       03_population_definition.ipynb
+│       04_eda.ipynb
+│       05_feature_engineering.ipynb
+│       06_modeling.ipynb
 │       prepare_data.py
 │       
 ├───report
 │       01_data_dictionary.md
 │       02_eda_summary.md
 │       03_portfolio_monitoring.md
-│       04_modeling.md
+│       04_modelling.md
 │       05_business_recommendation.md
 │       
 └───sql
         portfolio_kpi.sql
         schema.sql
+        SQLQuery2.sql
+        SQLQuery_EDA.sql
+
 ```
 
 ---
