@@ -229,7 +229,7 @@ The model is intended to provide decision-support information for underwriting a
 
 # 11. Project Workflow
 
-The project follows an end-to-end analytical workflow that reflects the typical responsibilities of a Credit Risk Analyst working with a historical consumer lending portfolio.
+The project follows a CRISP-DM-inspired end-to-end analytical workflow that reflects the typical responsibilities of a Credit Risk Analyst working with a historical consumer lending portfolio. The workflow is adapted for consumer lending risk analytics, with additional emphasis on portfolio analytics, risk monitoring, and application risk modeling.
 
 ### Phase 1 – Business Understanding
 
