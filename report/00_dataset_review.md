@@ -1,13 +1,5 @@
 # Dataset Review
-Task 2.1-Dataset review-phải trả lời theo góc nhìn nghiệp vụ:
 
-- Dataset này đại diện cho cái gì?
-- Một dòng dữ liệu là gì?
-- Phạm vi thời gian thế nào?
-- Dữ liệu chứa thông tin tại thời điểm nào?
-- Có thể dùng cho các bài toán nghiệp vụ nào?
-- Có những hạn chế gì?
-- Điều gì chưa thể kết luận ở giai đoạn này?
 
 ## 1. Review Objective
 
