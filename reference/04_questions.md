@@ -5,7 +5,9 @@ Resolved
 
 ## Research 
 Sau khi hỏi ChatGPT thì được trả lời như sau:
+
 Dataset review phải trả lời theo góc nhìn nghiệp vụ:
+
     - Dataset này đại diện cho cái gì?
     - Một dòng dữ liệu là gì?
     - Phạm vi thời gian thế nào?
@@ -17,6 +19,7 @@ Dataset review phải trả lời theo góc nhìn nghiệp vụ:
 Hỏi sâu thêm thì được giải thích rằng 7 nội dung trên là suy luận dựa kiểu "một cách hiện thực hóa (operationalize) các mục tiêu của giai đoạn Data Understanding thành một checklist rõ ràng, dễ review và phù hợp với một dự án Credit Risk Analytics." theo hướng dẫn của CRISP trong CRISP-DM User Guide
 
 ## Evidence
+
 https://s2.smu.edu/~mhd/8331f03/crisp.pdf
 => file này đã lưu về trong reference/
 
