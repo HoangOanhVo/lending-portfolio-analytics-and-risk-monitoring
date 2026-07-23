@@ -469,10 +469,11 @@ lending-portfolio-analytics-and-risk-monitoring
 │   └── 05_business_recommendation.md
 │
 ├── sql
-│   ├── schema.sql
-│   ├── portfolio_kpi.sql
-│   ├── SQLQuery_EDA.sql
-│   └── SQLQuery2.sql
+│   ├── 01_create_schema.sql
+│   ├── 02_portfolio_composition.sql
+│   ├── 03_portfolio_performance.sql
+│   ├── 04_segment_monitoring.sql
+│   └── 05_vintage_analysis.sql
 ││
 └── reference
     ├── 01_dataset_notes.md  
@@ -480,6 +481,10 @@ lending-portfolio-analytics-and-risk-monitoring
     ├── 03_business_notes.md
     └── 04_questions.md
 ```
+01_create_schema.sql
+
+
+0
 
 ---
 
