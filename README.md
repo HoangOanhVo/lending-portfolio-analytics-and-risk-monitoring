@@ -481,10 +481,6 @@ lending-portfolio-analytics-and-risk-monitoring
     ├── 03_business_notes.md
     └── 04_questions.md
 ```
-01_create_schema.sql
-
-
-0
 
 ---
 
