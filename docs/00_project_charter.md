@@ -55,7 +55,7 @@ The project will:
 1. Evaluate portfolio composition and historical loan performance.
 2. Define and calculate relevant portfolio and credit risk indicators.
 3. Compare risk across borrower, loan and origination segments.
-4. conduct cohort and vintage-based analysis where supported by the data.
+4. Conduct cohort and vintage-based analysis where supported by the data.
 5. Identify variables associated with adverse loan outcomes.
 6. Develop and evaluate a baseline probability-of-default model.
 7. Create a management dashboard summarizing major portfolio and risk findings.

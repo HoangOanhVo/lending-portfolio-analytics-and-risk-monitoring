@@ -115,6 +115,53 @@ Dự án đang làm dựa trên CRISP-DM, cụ thể như sau:
 
 => Đã bổ sung vào README.md
 
+---
+
+# Question 1:
+Architecture Decision Record (ADR) là gì?
+
+## Status
+Resolved
+
+## Research
+Đây là tài liệu rất phổ biến trong các dự án phần mềm và data.
+ADR có cấu trúc rõ ràng, dễ mở rộng và gần với thực tế hơn khi dự án phát triển.
+Mỗi quyết định là một tài liệu độc lập, dễ tham chiếu.
+Khi quy mô dự án lớn hơn, việc tra cứu và quản lý thay đổi sẽ rõ ràng hơn.
+Ví dụ
+
+ADR-001
+
+Use Lending Club Dataset
+
+Status
+Accepted
+
+ADR-002
+
+Assume Analysis Date
+31-Dec-2019
+
+Status
+Accepted
+
+ADR-003
+
+Exclude Current Loans
+from Model Development
+
+Status
+Accepted
+
+## Evidence
+Lending Club Data Dictionary
+
+## Conclusion
+...
+
+---
+
+
 # Question 1:
 Default khác Charge Off?
 
