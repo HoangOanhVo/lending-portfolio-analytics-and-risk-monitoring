@@ -154,7 +154,7 @@ A repository assessment submitted in the format specified by the Project Lead.
 
 ### Current Status
 
-`Not Started`
+| Task Status | Revision in Progress |
 
 ---
 
@@ -172,7 +172,7 @@ New issues must be added when they affect scope, quality, reproducibility, depen
 
 | Reference | Required Revision | Owner | Status |
 |---|---|---|---|
-| Charter Review | Capitalize “Conduct” in Supporting Objective 4 | Credit Risk Analyst | Implemented|
+| Charter Review | Capitalize “Conduct” in Supporting Objective 4 | Credit Risk Analyst | Implemented |
 
 The revision may be included in the next documentation commit.
 
@@ -182,13 +182,10 @@ The revision may be included in the next documentation commit.
 
 | Sequence | Action | Owner |
 |---|---|---|
-| 1 | Update Project Plan acknowledgement | Credit Risk Analyst |
-| 2 | Implement minor Charter capitalization correction | Credit Risk Analyst |
-| 3 | Replace old Project Status with baseline v1.0 | Credit Risk Analyst |
-| 4 | Replace old Review Log with baseline v1.0 | Credit Risk Analyst |
-| 5 | Commit and push the planning baseline | Credit Risk Analyst |
-| 6 | Complete PLN-004 repository reconciliation | Credit Risk Analyst |
-| 7 | Review PLN-004 deliverable | Project Lead |
+| 1 | Correct planning-baseline review findings | Credit Risk Analyst |
+| 2 | Submit corrective commit for review | Credit Risk Analyst |
+| 3 | Complete PLN-004 repository reconciliation | Credit Risk Analyst |
+| 4 | Review PLN-004 deliverable | Project Lead |
 
 ---
 

@@ -169,14 +169,14 @@ File names may be refined during Stage 3 but the business purpose of the deliver
 #### Stage gate
 
 Stage 4 is complete when:
-    data source and limitations are documented;
-    unit of observation is confirmed;
-    origination and performance coverage are known;
-    loan-status values are understood sufficiently for later target work;
-    identifiers and duplicates are assessed;
-    relevant variables have business and technical classifications;
-    major data-quality risks are documented;
-    no target or modeling population has been prematurely finalized.
+- data source and limitations are documented;
+- unit of observation is confirmed;
+- origination and performance coverage are known;
+- loan-status values are understood sufficiently for later target work;
+- identifiers and duplicates are assessed;
+- relevant variables have business and technical classifications;
+- major data-quality risks are documented;
+- no target or modeling population has been prematurely finalized.
 
 ---
 
@@ -198,26 +198,24 @@ Stage 4 is complete when:
 #### Required analytical populations
 
 At minimum, the project must separately assess:
-    1. Origination population
-    Used to describe booked-loan composition and origination characteristics.
-    2. Performance-monitoring population
-    Used to analyze historical repayment and risk outcomes with appropriate exposure or maturity.
-    3. Model-development population
-    Used to develop and validate an origination risk model under approved target and information-timing rules.
-
-These populations may overlap but must not be assumed identical.
+- Origination population
+Used to describe booked-loan composition and origination characteristics.
+- Performance-monitoring population
+Used to analyze historical repayment and risk outcomes with appropriate exposure or maturity.
+- Model-development population
+Used to develop and validate an origination risk model under approved target and information-timing rules.These populations may overlap but must not be assumed identical.
 
 #### Stage gate
 
 Stage 5 is complete when:
-    observation point and performance window are approved;
-    outcome maturity is addressed;
-    target definition is documented;
-    analytical populations are reproducible;
-    leakage variables are excluded from model predictors;
-    cleaning rules are traceable;
-    analytical datasets can be regenerated from source data;
-    material exclusions and their impacts are reported.
+- observation point and performance window are approved;
+- outcome maturity is addressed;
+- target definition is documented;
+- analytical populations are reproducible;
+- leakage variables are excluded from model predictors;
+- cleaning rules are traceable;
+- analytical datasets can be regenerated from source data;
+- material exclusions and their impacts are reported.
 
 ---
 
@@ -236,25 +234,25 @@ Stage 5 is complete when:
 #### Minimum analytical requirements
 
 Portfolio metrics must specify:
-    business definition;
-    numerator;
-    denominator;
-    population;
-    exclusions;
-    time basis;
-    interpretation limitations.
+- business definition;
+- numerator;
+- denominator;
+- population;
+- exclusions;
+- time basis;
+- interpretation limitations.
 
 Economic profit must not be claimed unless all material revenue and cost components are available and defined.
 
 #### Stage gate
 
 Stage 6 is complete when:
-    portfolio composition is clearly explained;
-    major segment differences are quantified;
-    performance metrics are reproducible;
-    volume metrics are not presented as risk metrics;
-    unsupported profitability conclusions are avoided;
-    findings are tied to evidence.
+- portfolio composition is clearly explained;
+- major segment differences are quantified;
+- performance metrics are reproducible;
+- volume metrics are not presented as risk metrics;
+- unsupported profitability conclusions are avoided;
+- findings are tied to evidence.
 
 ---
 
@@ -273,21 +271,21 @@ Stage 6 is complete when:
 #### Vintage requirements
 
 Where supported by the data, vintage analysis should include:
-    origination cohort;
-    months on book;
-    comparable maturity;
-    cumulative adverse-outcome measures;
-    explicit treatment of incomplete vintages;
-    limitation disclosure.
+- origination cohort;
+- months on book;
+- comparable maturity;
+- cumulative adverse-outcome measures;
+- explicit treatment of incomplete vintages;
+- limitation disclosure.
 
 #### Stage gate
 
 Stage 7 is complete when:
-    monitoring indicators are operationally defined;
-    cohorts are compared at appropriate maturity;
-    incomplete observations are not treated as fully matured;
-    major deterioration patterns are documented;
-    monitoring recommendations are evidence-based.
+- monitoring indicators are operationally defined;
+- cohorts are compared at appropriate maturity;
+- incomplete observations are not treated as fully matured;
+- major deterioration patterns are documented;
+- monitoring recommendations are evidence-based.
 
 ---
 
@@ -309,29 +307,29 @@ Stage 7 is complete when:
 #### Minimum model evaluation
 
 The model assessment must consider, where technically applicable:
-    benchmark comparison;
-    ROC-AUC;
-    KS;
-    PR-AUC;
-    recall and precision at stated thresholds;
-    calibration;
-    score bands or risk bands;
-    lift or gains;
-    out-of-time stability;
-    business interpretation.
+- benchmark comparison;
+- ROC-AUC;
+- KS;
+- PR-AUC;
+- recall and precision at stated thresholds;
+- calibration;
+- score bands or risk bands;
+- lift or gains;
+- out-of-time stability;
+- business interpretation.
 
 No single metric is sufficient to approve the model.
 
 #### Stage gate
 
 Stage 8 is complete when:
-    the target and population are approved;
-    predictors are available at the approved observation point;
-    data leakage is controlled;
-    validation design is appropriate;
-    discrimination and calibration are evaluated;
-    limitations are disclosed;
-    model results are not overstated as production-ready.
+- the target and population are approved;
+- predictors are available at the approved observation point;
+- data leakage is controlled;
+- validation design is appropriate;
+- discrimination and calibration are evaluated;
+- limitations are disclosed;
+- model results are not overstated as production-ready.
 
 ---
 
@@ -349,12 +347,12 @@ Stage 8 is complete when:
 #### Stage gate
 
 Stage 9 is complete when:
-    the dashboard presents approved metrics;
-    historical findings are not described as current real-world conditions;
-    recommendations trace back to analysis;
-    assumptions and limitations are visible;
-    technical detail is separated from management communication;
-    no proposed action is presented as implemented.
+- the dashboard presents approved metrics;
+- historical findings are not described as current real-world conditions;
+- recommendations trace back to analysis;
+- assumptions and limitations are visible;
+- technical detail is separated from management communication;
+- no proposed action is presented as implemented.
 
 ---
 
@@ -372,12 +370,12 @@ Stage 9 is complete when:
 #### Closure gate
 
 The project is closed only when:
-    all required deliverables are approved;
-    repository documentation matches implemented work;
-    material findings are reproducible;
-    open issues are closed or formally accepted;
-    unfinished work is clearly labeled;
-    the final README does not overstate project results or experience.
+- all required deliverables are approved;
+- repository documentation matches implemented work;
+- material findings are reproducible;
+- open issues are closed or formally accepted;
+- unfinished work is clearly labeled;
+- the final README does not overstate project results or experience.
 
 ---
 
@@ -415,22 +413,22 @@ Material issues prevent acceptance. The deliverable must be revised and resubmit
 ### Project Lead
 
 The Project Lead owns:
-    approval decisions;
-    review findings;
-    scope changes;
-    analytical decisions;
-    stage-gate decisions;
-    Project Plan content.
+- approval decisions;
+- review findings;
+- scope changes;
+- analytical decisions;
+- stage-gate decisions;
+- Project Plan content.
 
 ### Credit Risk Analyst
 
 The Credit Risk Analyst owns:
-    execution updates;
-    submission dates;
-    task progress;
-    blockers;
-    revision completion;
-    reproducible implementation.
+- execution updates;
+- submission dates;
+- task progress;
+- blockers;
+- revision completion;
+- reproducible implementation.
 
 The Analyst must not assign an approval decision to their own work.
 
@@ -478,16 +476,16 @@ Deletion, renaming or replacement will be determined during repository reconcili
 ## 9. Change Control
 
 A formal change assessment is required when a proposed change affects:
-    objectives;
-    scope;
-    stage structure;
-    major deliverables;
-    target definition;
-    observation point;
-    performance window;
-    analytical populations;
-    repository architecture after approval;
-    previously approved conclusions.
+- objectives;
+- scope;
+- stage structure;
+- major deliverables;
+- target definition;
+- observation point;
+- performance window;
+- analytical populations;
+- repository architecture after approval;
+- previously approved conclusions.
 
 Minor formatting corrections do not require a formal change decision.
 
@@ -498,20 +496,20 @@ Material analytical decisions must be recorded in ```docs/adr/``` .
 ## 10. Definition of Done
 
 A task is considered done only when:
-    1. The assigned output exists.
-    2. The output is complete for the approved scope.
-    3. The method is reproducible where applicable.
-    4. Assumptions and exclusions are documented.
-    5. The deliverable has been submitted for review.
-    6. Required revisions have been completed.
-    7. The Project Lead has issued a closure decision.
-    8. Repository status reflects the actual implementation.
+1. The assigned output exists.
+2. The output is complete for the approved scope.
+3. The method is reproducible where applicable.
+4. Assumptions and exclusions are documented.
+5. The deliverable has been submitted for review.
+6. Required revisions have been completed.
+7. The Project Lead has issued a closure decision.
+8. Repository status reflects the actual implementation.
 
 A file existing in the repository does not, by itself, mean that the task is complete.
 
 ---
 
-11. Initial Execution Sequence
+## 11. Initial Execution Sequence
 
 The initial approved sequence is:
 ```
